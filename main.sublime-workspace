@@ -1,0 +1,1178 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"push_back"
+			],
+			[
+				"EN",
+				"EntityMap"
+			],
+			[
+				"En",
+				"EntityManger"
+			],
+			[
+				"dis",
+				"DispatchTime"
+			],
+			[
+				"Re",
+				"Receiver"
+			],
+			[
+				"info",
+				"ExtraInfo"
+			],
+			[
+				"T",
+				"Telegram"
+			],
+			[
+				"Game",
+				"GameEntities"
+			],
+			[
+				"Min",
+				"MinersWife"
+			],
+			[
+				"Miners",
+				"MinersWife"
+			],
+			[
+				"In",
+				"Instance"
+			],
+			[
+				"Miner",
+				"MinersWifeGlobalState"
+			],
+			[
+				"Mine",
+				"MinersWifeGlobalState"
+			],
+			[
+				"miner",
+				"MinersWife"
+			],
+			[
+				"thir",
+				"m_iThirst"
+			],
+			[
+				"Enter",
+				"EnterMineAndDigForNugget"
+			],
+			[
+				"Inc",
+				"IncreaseFatigue"
+			],
+			[
+				"m_",
+				"m_iGoldCarried"
+			],
+			[
+				"m_p",
+				"m_pStateMachine"
+			],
+			[
+				"curre",
+				"m_pCurrentState"
+			],
+			[
+				"Change",
+				"ChangeState"
+			],
+			[
+				"en",
+				"entity_type"
+			],
+			[
+				"m",
+				"m_pOwner"
+			],
+			[
+				"State",
+				"StateMachine"
+			],
+			[
+				"Ex",
+				"Execute"
+			],
+			[
+				"rand",
+				"randNum"
+			],
+			[
+				"Bulle",
+				"BulletID"
+			],
+			[
+				"bu",
+				"bulletType"
+			],
+			[
+				"get",
+				"getSprite"
+			],
+			[
+				"string",
+				"stringstream"
+			],
+			[
+				"se",
+				"setPosition"
+			],
+			[
+				"wall",
+				"wallBricks"
+			],
+			[
+				"w",
+				"wallCollide"
+			],
+			[
+				"insi",
+				"insideBricks"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"sc",
+				"scalars1"
+			],
+			[
+				"scal",
+				"scalars2"
+			],
+			[
+				"Nor",
+				"normalize"
+			],
+			[
+				"Ve",
+				"vector"
+			],
+			[
+				"cor",
+				"corner"
+			],
+			[
+				"coll",
+				"collided2"
+			],
+			[
+				"col",
+				"collided2"
+			],
+			[
+				"c",
+				"collided2"
+			],
+			[
+				"ch",
+				"checkCollisionOn"
+			],
+			[
+				"ve",
+				"vertex"
+			],
+			[
+				"set",
+				"setDirection"
+			],
+			[
+				"dir",
+				"direction"
+			],
+			[
+				"v2",
+				"v2_ls"
+			],
+			[
+				"Coll",
+				"CollisionObject"
+			],
+			[
+				"a",
+				"angle"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"new",
+				"newAngle"
+			],
+			[
+				"windw",
+				"windowSize"
+			],
+			[
+				"wind",
+				"windowSize"
+			],
+			[
+				"win",
+				"windowSize"
+			],
+			[
+				"wn",
+				"windowSize"
+			],
+			[
+				"Win",
+				"windowSize"
+			],
+			[
+				"WIND",
+				"WINDOW_H"
+			],
+			[
+				"WINDO",
+				"WINDOW_W"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"window",
+				"SDL_Window"
+			],
+			[
+				"Get",
+				"GetPosition"
+			],
+			[
+				"load",
+				"loading_mutex"
+			],
+			[
+				"lock",
+				"lock_guard"
+			],
+			[
+				"ren",
+				"render_while_loading"
+			],
+			[
+				"ini",
+				"initiating_mutex"
+			],
+			[
+				"render",
+				"renderer_mutex"
+			],
+			[
+				"loading",
+				"loading_mutex"
+			],
+			[
+				"app",
+				"Application"
+			],
+			[
+				"main",
+				"main_loop"
+			],
+			[
+				"mai",
+				"mainEvent"
+			],
+			[
+				"fun",
+				"Func"
+			],
+			[
+				"L",
+				"LengthSquared"
+			],
+			[
+				"ver",
+				"vertices"
+			],
+			[
+				"ad",
+				"ahead"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"ani",
+				"animation-duration"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"sli",
+				"slideIndex"
+			],
+			[
+				"sho",
+				"showDivs"
+			],
+			[
+				"slid",
+				"slide"
+			],
+			[
+				"show",
+				"showDivs"
+			],
+			[
+				"in",
+				"slideIndex"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"slide",
+				"slideIndex"
+			],
+			[
+				"shw",
+				"slideshow"
+			],
+			[
+				"list",
+				"list-style-image"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-overflow"
+			],
+			[
+				"sytle",
+				"list-style-type"
+			],
+			[
+				"text-co",
+				"text-decoration"
+			],
+			[
+				"bod",
+				"border"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"backg",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 596,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "BaseGameEntity.h",
+			"settings":
+			{
+				"buffer_size": 371,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "EntityManager.h",
+			"settings":
+			{
+				"buffer_size": 667,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "#ifndef ENTITY_MANAGER_H"
+			}
+		},
+		{
+			"file": "EntityManager.cpp",
+			"settings":
+			{
+				"buffer_size": 652,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "State.h",
+			"settings":
+			{
+				"buffer_size": 274,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MinersWife.h",
+			"settings":
+			{
+				"buffer_size": 568,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "#ifndef MINER_WIFE_H"
+			}
+		},
+		{
+			"file": "Miner.h",
+			"settings":
+			{
+				"buffer_size": 1332,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "#ifndef MINER_H"
+			}
+		},
+		{
+			"file": "MinersWifeStates.h",
+			"settings":
+			{
+				"buffer_size": 1193,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "#ifndef MINERS_WIFE_OWNED_STATES_H"
+			}
+		},
+		{
+			"file": "MinersWifeStates.cpp",
+			"settings":
+			{
+				"buffer_size": 1331,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "#include\"MinersWifeStates.h\""
+			}
+		},
+		{
+			"file": "MinersWife.cpp",
+			"settings":
+			{
+				"buffer_size": 135,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "#include\"MinersWife.h\""
+			}
+		},
+		{
+			"file": "MinerOwnedStates.h",
+			"settings":
+			{
+				"buffer_size": 2265,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "MinerOwnedStates.cpp",
+			"settings":
+			{
+				"buffer_size": 3276,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Miner.cpp",
+			"settings":
+			{
+				"buffer_size": 493,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "#include\"Miner.h\""
+			}
+		},
+		{
+			"contents": "#include\"MinerGlobalState.h\"\n",
+			"file": "MinerGlobalState.cpp",
+			"file_size": 30,
+			"file_write_time": 131600504914407684,
+			"settings":
+			{
+				"buffer_size": 29,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "StateMachine.h",
+			"settings":
+			{
+				"buffer_size": 1852,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "#ifndef STATE_MACHINE_H"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Ubuntu/programming_game_ai_by_example/my_workspace/Telegram.h",
+		"/E/Ubuntu/programming_game_ai_by_example/my_workspace/VisitBankAndDepositGold.cpp",
+		"/E/Ubuntu/programming_game_ai_by_example/my_workspace/EnterMineAndDigForNugget.cpp",
+		"/E/Ubuntu/programming_game_ai_by_example/my_workspace/EnterMineAndDigForNugget.h",
+		"/E/Ubuntu/programming_game_ai_by_example/my_workspace/VisitBankAndDepositGold.h",
+		"/E/Ubuntu/programming_game_ai_by_example/my_workspace/GlobalState.cpp",
+		"/E/Ubuntu/programming_game_ai_by_example/my_workspace/GlobalState.h",
+		"/E/Ubuntu/programming_game_ai_by_example/my_workspace/BaseGameEntity.h",
+		"/E/Ubuntu/programming_game_ai_by_example/State.cpp",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/Texture.cpp",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/Assets.cpp",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/Texture.h",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/Player.cpp",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/Player.h",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/geometry.cpp",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/geometry.h",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/vec2.cpp",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/Game.h",
+		"/E/Ubuntu/coding_test/project_dec_2017/assets/map.txt",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/Assets.h",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/game_object.cpp",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/Environment.cpp",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/game_object.h",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/Environment.h",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/main.cpp",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/Game.cpp",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/map.txt",
+		"/E/Ubuntu/coding_test/project_dec_2017/src/vec2.h",
+		"/E/Google Drive/Cloud Source Code/GameProjects2017/GameProject_6/Hardware.cpp",
+		"/E/Google Drive/Cloud Source Code/GameProjects2017/GameProject_6/main.cpp",
+		"/E/Google Drive/Cloud Source Code/GameProjects2017/GameProject_6/Software.cpp",
+		"/E/Google Drive/Cloud Source Code/GameProjects2017/GameProject_6/WaterBug.cpp",
+		"/E/Google Drive/html_programming/ReactProjects/New folder/web/test_slideshow.html",
+		"/E/Google Drive/html_programming/ReactProjects/New folder/web/w3.css",
+		"/E/Google Drive/html_programming/ReactProjects/New folder/5f422bd6-8e5a-4409-aeb4-48e0cf89cf1b.htm",
+		"/E/Google Drive/html_programming/ReactProjects/main.html",
+		"/E/Google Drive/html_programming/ReactProjects/helloworld.html",
+		"/E/Google Drive/html_programming/ReactProjects/projectmanager/package.json",
+		"/E/Google Drive/html_programming/csscrashcourse_youtube/csscheatsheet/css/style.css",
+		"/E/Google Drive/html_programming/csscrashcourse_youtube/csscheatsheet/index.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\t\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								582,
+								582
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "BaseGameEntity.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								336
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "EntityManager.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								643,
+								643
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#ifndef ENTITY_MANAGER_H",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "EntityManager.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								649,
+								649
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "State.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "MinersWife.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#ifndef MINER_WIFE_H",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Miner.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								666,
+								666
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#ifndef MINER_H",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 251.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "MinersWifeStates.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								893,
+								893
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#ifndef MINERS_WIFE_OWNED_STATES_H",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 92.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "MinersWifeStates.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1318,
+								1318
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include\"MinersWifeStates.h\"",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 312.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "MinersWife.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include\"MinersWife.h\"",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "MinerOwnedStates.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1427,
+								1530
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 811.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "MinerOwnedStates.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								899,
+								899
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "Miner.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include\"Miner.h\"",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "MinerGlobalState.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "StateMachine.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1852,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1131,
+								1131
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#ifndef STATE_MACHINE_H",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 451.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 165.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
