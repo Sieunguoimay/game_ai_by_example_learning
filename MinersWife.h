@@ -13,7 +13,11 @@ public:
 		m_pStateMachine->SetCurrentState(DoHouseWork::Instance());
 	}
 	~MinersWife();
-	void Update();
+	//this must be implemented
+	virtual bool HandleMessage(const Telegram&msg);
+	//so must this
+	virtual void Update();
+	
 	StateMachine<MinersWife>*GetFSM()const{return m_pStateMachine;}
 };
 #endif//MINER_WIFE_H

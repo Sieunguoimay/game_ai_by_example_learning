@@ -30,6 +30,15 @@ public:
 		//same for the current state
 		if(m_pCurrentState)m_pCurrentState->Execute(m_pOwner);
 	}
+	bool HandleMessage(const Telegram&msg)const{
+		if(m_pCurrentState&&m_pCurrentState->OnMessage(m_pOwner,msg)){
+			return true;
+		}
+		if(m_pGlobalState&&m_pGlobalState->OnMessage(m_pOwner,msg)){
+			return true;
+		}
+		return false;
+	}
 	//Change to new State
 	void ChangeState(State<entity_type>*pNewState){
 		assert(pNewState&&"<StateMachine::ChangeState>:trying to change to a null state");

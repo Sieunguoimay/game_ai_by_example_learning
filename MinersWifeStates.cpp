@@ -11,6 +11,9 @@ void DoHouseWork::Execute(MinersWife*pMinersWife){
 void DoHouseWork::Exit(MinersWife*pMinersWife){
 	std::cout<<"\nSo tired. I'm gonna watch TV";
 }
+bool DoHouseWork::OnMessage(MinersWife*pMinersWife,Telegram&telegram){
+
+}
 DoHouseWork*DoHouseWork::Instance(){
 	static DoHouseWork instance;
 	return &instance;
@@ -32,6 +35,9 @@ WatchTV*WatchTV::Instance(){
 	static WatchTV instance;
 	return &instance;
 }
+bool WatchTV::OnMessage(MinersWife*pMinersWife,Telegram&telegram){
+	
+}
 
 //----------------------------------------------------------Methods For MinersWifeGlobalState
 void MinersWifeGlobalState::Enter(MinersWife*pMinersWife){
@@ -42,6 +48,9 @@ void MinersWifeGlobalState::Execute(MinersWife*pMinersWife){
 }
 void MinersWifeGlobalState::Exit(MinersWife*pMinersWife){
 
+}
+bool MinersWifeGlobalState::OnMessage(MinersWife*pMinersWife,Telegram&telegram){
+	
 }
 MinersWifeGlobalState*MinersWifeGlobalState::Instance(){
 	static MinersWifeGlobalState instance;

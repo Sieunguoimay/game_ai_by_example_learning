@@ -21,6 +21,7 @@ inline std::string GetNameOfEntity(int n)
     return "UNKNOWN!";
   }
 }
+#include"Telegram.h"
 class BaseGameEntity{
 	int m_ID;
 	static int m_iNextValidID;
@@ -32,7 +33,12 @@ public:
 		SetID(id);
 	}
 	virtual ~BaseGameEntity(){}
+
+	//All entitis must implement an update function
 	virtual void Update()=0;
+	//All entities can communicate using message. They are sent
+	//using MessageDispatcher singleton class
+	virtual bool HandleEvent(const Telegram&msg)=0;
 
 	int ID()const{return m_ID;}
 };
