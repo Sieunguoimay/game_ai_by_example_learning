@@ -1,5 +1,6 @@
 #include"Miner.h"
-
+#include"CrudeTimer.h"
+#include"MessageDispatcher.h"
 //-----------------------------------------------------------Methods for EnterMindAndDigForNugget
 void EnterMineAndDigForNugget::Enter(Miner*miner){
 	std::cout<<"\nWalkin' to the gold mine";
@@ -63,7 +64,8 @@ VisitBankAndDepositGold*VisitBankAndDepositGold::Instance(){
 //------------------------------------------------------------Methods for GoHomeAndSleepTilRest
 void GoHomeAndSleepTilRested::Enter(Miner*miner){
 	std::cout<<"\nHoney Ah'm comin home";
-	
+
+	Dispatch->DispatchMessage(0,ent_Miner_Bob,ent_Miners_Wife,Msg_HiHoneyImHome,NULL);
 }
 void GoHomeAndSleepTilRested::Execute(Miner*miner){
 	std::cout<<"\nZZZZ...";
@@ -74,6 +76,14 @@ void GoHomeAndSleepTilRested::Execute(Miner*miner){
 }
 void GoHomeAndSleepTilRested::Exit(Miner*miner){
 	std::cout<<"\nGoodbye honey";
+
+	Dispatch->DispatchMessage(
+		SEND_MSG_IMMEDIATELY,
+		ent_Miner_Bob,ent_Miners_Wife,
+		Msg_ByeHoneyImLeaving,
+		NULL
+	);
+
 }
 
 bool GoHomeAndSleepTilRested::OnMessage(Miner*pMiner,const Telegram&telegram){

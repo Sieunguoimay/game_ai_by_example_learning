@@ -15,27 +15,29 @@
 #include <string>
 enum message_type
 {
-  Msg_HiHoneyImHome,
-  Msg_StewReady,
+	Msg_HiHoneyImHome,
+	Msg_ByeHoneyImLeaving,
+	Msg_StewReady,
 };
 
 
 inline std::string MsgToStr(int msg)
 {
-  switch (msg)
-  {
-  case Msg_HiHoneyImHome:
-    
-    return "HiHoneyImHome"; 
+	switch (msg)
+	{
+	case Msg_HiHoneyImHome:
+	 
+	 return "HiHoneyImHome"; 
 
-  case Msg_StewReady:
-    
-    return "StewReady";
+	case Msg_StewReady:
+	 
+	 return "StewReady";
+	case Msg_ByeHoneyImLeaving:
+		return "ByeHoneyImLeaving";
+	default:
 
-  default:
-
-    return "Not recognized!";
-  }
+	 return "Not recognized!";
+	}
 }
 const int SmallestDelay = 0.00001;
 struct Telegram{

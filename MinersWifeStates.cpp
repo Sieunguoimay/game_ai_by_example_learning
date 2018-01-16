@@ -1,6 +1,7 @@
 #include"MinersWife.h"
 #include"MinersWifeStates.h"
-
+#include"CrudeTimer.h"
+#include"MessageDispatcher.h"
 void DoHouseWork::Enter(MinersWife*pMinersWife){
 	std::cout<<"\nBack to works";
 }
@@ -52,7 +53,19 @@ void MinersWifeGlobalState::Exit(MinersWife*pMinersWife){
 
 }
 bool MinersWifeGlobalState::OnMessage(MinersWife*pMinersWife,const Telegram&telegram){
-	
+	switch(telegram.Msg){
+		case Msg_HiHoneyImHome:{
+			std::cout<<"\nMessage handled by "<<GetNameOfEntity(pMinersWife->ID())<<" at time: "
+				<<Clock->GetCurrentTime();
+			std::cout<<"\nHi honey Welcome home!";
+		}
+		case Msg_ByeHoneyImLeaving:{
+			std::cout<<"\nMessage handled by "<<GetNameOfEntity(pMinersWife->ID())<<" at time: "
+				<<Clock->GetCurrentTime();
+			std::cout<<"\nSee you again!";
+		}
+		return true;
+	}	
 	return false;
 }
 MinersWifeGlobalState*MinersWifeGlobalState::Instance(){
