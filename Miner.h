@@ -27,6 +27,7 @@ public:
 
 	void Update();
 	StateMachine<Miner>* GetFSM()const;
+	virtual bool HandleMessage(const Telegram&msg);
 
 
 	//----------------------------------------------Accessors

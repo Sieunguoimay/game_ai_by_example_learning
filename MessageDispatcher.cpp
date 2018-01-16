@@ -1,9 +1,9 @@
+#include<iostream>
 #include"MessageDispatcher.h"
 #include"BaseGameEntity.h"
 #include"CrudeTimer.h"
 #include"EntityManager.h"
-#include<iostream>
-MessageDispatcher::MessageDispatcher*Instance(){
+MessageDispatcher*MessageDispatcher::Instance(){
 	static MessageDispatcher instance;
 	return &instance;
 }
@@ -47,7 +47,7 @@ void MessageDispatcher::DispatchDelayedMessage(){
 		const Telegram&telegram = *PriorityQ.begin();
 		BaseGameEntity*pReceiver = EntityMgr->GetEntityFromID(telegram.Receiver);
 		std::cout<<"\nQueued telegram ready for dispatch: Send to "
-			<<GetNameOfEntity(pReceiver->ID())<<". Msg is "<<MsgToStr(msg);
+			<<GetNameOfEntity(pReceiver->ID())<<". Msg is "<<MsgToStr(telegram.Msg);
 
 		Discharge(pReceiver,telegram);
 		PriorityQ.erase(PriorityQ.begin());

@@ -37,14 +37,14 @@ inline std::string MsgToStr(int msg)
     return "Not recognized!";
   }
 }
-
+const int SmallestDelay = 0.00001;
 struct Telegram{
+	double DispatchTime;
 	//These are entity IDs, all enumerated in the file "BaseGameEntity.h" 
 	int Sender;
 	int Receiver;
 	//The messages are enumerated in the file "MessagesType.h"
 	int Msg;
-	double DispatchTime;
 	void*ExtraInfo;
 	Telegram():DispatchTime(-1),Sender(-1),
 				Receiver(-1),Msg(-1)

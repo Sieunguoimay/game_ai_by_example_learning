@@ -1,5 +1,6 @@
 #ifndef BASE_GAME_ENTITY_H
 #define BASE_GAME_ENTITY_H
+#include<string>
 enum entity_type{
 	ent_Miner_Bob,
 	ent_Miners_Wife
@@ -12,7 +13,7 @@ inline std::string GetNameOfEntity(int n)
 
     return "Miner Bob";
 
-  case ent_Elsa:
+  case ent_Miners_Wife:
     
     return "Elsa"; 
 
@@ -38,7 +39,7 @@ public:
 	virtual void Update()=0;
 	//All entities can communicate using message. They are sent
 	//using MessageDispatcher singleton class
-	virtual bool HandleEvent(const Telegram&msg)=0;
+	virtual bool HandleMessage(const Telegram&msg)=0;
 
 	int ID()const{return m_ID;}
 };

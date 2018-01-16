@@ -1,7 +1,9 @@
 #ifndef CRUDETIMER_H
 #define CRUDETIMER_H
-#include<windows.h>
+#include<sys/time.h>
+#include<iostream>
 #define Clock CrudeTimer::Instance()
+unsigned int timeGetTime();
 class CrudeTimer{
 	double m_dStartTime;
 	CrudeTimer(){m_dStartTime = timeGetTime()*0.001;}

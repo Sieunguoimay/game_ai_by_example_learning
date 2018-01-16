@@ -25,6 +25,10 @@ void EnterMineAndDigForNugget::Execute(Miner*miner){
 void EnterMineAndDigForNugget::Exit(Miner*miner){
 	std::cout<<"\nAh'm leavin' the gold mine with mah pockets full o' sweet gold";
 }
+bool EnterMineAndDigForNugget::OnMessage(Miner*pMiner,const Telegram&telegram){
+	return false;
+}
+
 EnterMineAndDigForNugget*EnterMineAndDigForNugget::Instance(){
 	static EnterMineAndDigForNugget instance;
 	return &instance;
@@ -46,6 +50,10 @@ void VisitBankAndDepositGold::Execute(Miner*miner){
 void VisitBankAndDepositGold::Exit(Miner*miner){
 	std::cout<<"\nMy pocket is empty again";
 }
+
+bool VisitBankAndDepositGold::OnMessage(Miner*pMiner,const Telegram&telegram){
+	return false;
+}
 VisitBankAndDepositGold*VisitBankAndDepositGold::Instance(){
 	static VisitBankAndDepositGold instance;
 	return &instance;
@@ -55,6 +63,7 @@ VisitBankAndDepositGold*VisitBankAndDepositGold::Instance(){
 //------------------------------------------------------------Methods for GoHomeAndSleepTilRest
 void GoHomeAndSleepTilRested::Enter(Miner*miner){
 	std::cout<<"\nHoney Ah'm comin home";
+	
 }
 void GoHomeAndSleepTilRested::Execute(Miner*miner){
 	std::cout<<"\nZZZZ...";
@@ -66,6 +75,12 @@ void GoHomeAndSleepTilRested::Execute(Miner*miner){
 void GoHomeAndSleepTilRested::Exit(Miner*miner){
 	std::cout<<"\nGoodbye honey";
 }
+
+bool GoHomeAndSleepTilRested::OnMessage(Miner*pMiner,const Telegram&telegram){
+
+	return false;
+}
+
 GoHomeAndSleepTilRested*GoHomeAndSleepTilRested::Instance(){
 	static GoHomeAndSleepTilRested instance;
 	return &instance;
@@ -83,6 +98,10 @@ void QuenchThirst::Execute(Miner*miner){
 void QuenchThirst::Exit(Miner*miner){
 	std::cout<<"\nAh'm ok now";
 }
+bool QuenchThirst::OnMessage(Miner*pMiner,const Telegram&telegram){
+
+	return false;
+}
 QuenchThirst*QuenchThirst::Instance(){
 	static QuenchThirst instance;
 	return &instance;
@@ -99,6 +118,10 @@ void MinerGlobalState::Execute(Miner*miner){
 }
 void MinerGlobalState::Exit(Miner*miner){
 
+}
+bool MinerGlobalState::OnMessage(Miner*pMiner,const Telegram&telegram){
+
+	return false;
 }
 MinerGlobalState*MinerGlobalState::Instance(){
 	static MinerGlobalState instance;

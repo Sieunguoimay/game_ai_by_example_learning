@@ -11,6 +11,9 @@ Miner::Miner(int id):BaseGameEntity(id),m_iGoldCarried(0),m_iFatigue(0),m_iThirs
 Miner::~Miner(){
 	delete m_pStateMachine;
 }
+bool Miner::HandleMessage(const Telegram&msg){
+	return m_pStateMachine->HandleMessage(msg);
+}
 void Miner::Update(){
 	m_pStateMachine->Update();
 }

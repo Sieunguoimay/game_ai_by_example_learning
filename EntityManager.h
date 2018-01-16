@@ -5,17 +5,17 @@
 #include<string>
 
 class BaseGameEntity;
-class EntityManger{
+class EntityManager{
 	typedef std::map<int,BaseGameEntity*>EntityMap;
 	EntityMap m_EntityMap;
-	EntityManger(){}
+	EntityManager(){}
 
 	//make copy constructor and assignment to be private
-	EntityManger(const EntityManger&);
-	EntityManger*operator=(const EntityManger&);
+	EntityManager(const EntityManager&);
+	EntityManager*operator=(const EntityManager&);
 public:
 	//this is singleton
-	static EntityManger*Instance();
+	static EntityManager*Instance();
 	void RegisterEntity(BaseGameEntity*NewEntity);
 	BaseGameEntity* GetEntityFromID(int id)const;
 	void RemoveEntity(BaseGameEntity*pEntity);
@@ -23,5 +23,5 @@ public:
 };
 
 //to make life easier..
-#define EntityMgr EntityManger::Instance()
+#define EntityMgr EntityManager::Instance()
 #endif//ENTITY_MANAGER_H

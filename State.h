@@ -2,8 +2,8 @@
 #define STATE_H
 #include<iostream>
 //Abstract class
-template<class entity_type>
 struct Telegram;
+template<class entity_type>
 class State{
 public:
 	virtual void Enter(entity_type*) = 0;

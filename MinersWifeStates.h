@@ -3,40 +3,40 @@
 
 #include"State.h"
 
-class Telegram;
+struct Telegram;
 class MinersWife;
 //---------------------------------------------------DoHouseWork
 class DoHouseWork:public State<MinersWife>{
 	DoHouseWork(){}
-	DoHouseWork(const DoHouseWork&){}
-	DoHouseWork*operator=(const DoHouseWork&){}
+	DoHouseWork(const DoHouseWork&);
+	DoHouseWork*operator=(const DoHouseWork&);
 public:
 	static DoHouseWork*Instance();
 	virtual void Enter(MinersWife*pMinersWife);
 	virtual void Execute(MinersWife*pMinersWife);
 	virtual void Exit(MinersWife*pMinersWife);
-	virtual bool OnMessage(MinersWife*pMinersWife,Telegram&telegram);
+	virtual bool OnMessage(MinersWife*pMinersWife,const Telegram&telegram);
 };
 class WatchTV:public State<MinersWife>{
 	WatchTV(){}
-	WatchTV(const WatchTV&){}
-	WatchTV*operator=(const WatchTV&){}
+	WatchTV(const WatchTV&);
+	WatchTV*operator=(const WatchTV&);
 public:
 	static WatchTV*Instance();
 	virtual void Enter(MinersWife*pMinersWife);
 	virtual void Execute(MinersWife*pMinersWife);
 	virtual void Exit(MinersWife*pMinersWife);
-	virtual bool OnMessage(MinersWife*pMinersWife,Telegram&telegram);
+	virtual bool OnMessage(MinersWife*pMinersWife,const Telegram&telegram);
 };
 class MinersWifeGlobalState:public State<MinersWife>{
 	MinersWifeGlobalState(){}
-	MinersWifeGlobalState(const MinersWifeGlobalState&){}
-	MinersWifeGlobalState*operator=(const MinersWifeGlobalState&){}
+	MinersWifeGlobalState(const MinersWifeGlobalState&);
+	MinersWifeGlobalState*operator=(const MinersWifeGlobalState&);
 public:
 	static MinersWifeGlobalState*Instance();	
 	virtual void Enter(MinersWife*pMinersWife);
 	virtual void Execute(MinersWife*pMinersWife);
 	virtual void Exit(MinersWife*pMinersWife);
-	virtual bool OnMessage(MinersWife*pMinersWife,Telegram&telegram);
+	virtual bool OnMessage(MinersWife*pMinersWife,const Telegram&telegram);
 };
 #endif//MINERS_WIFE_STATES_H
